@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(28, 28, 26);  
+}
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+*{font-family: "Arimo", sans-serif;}
+header img{
+    width: 177px;
+    height: 177px;
+    position: relative;
+    margin-left: 2vw;
+}
+header{
+    display: flex;
+    color: white;
+}
+header h1{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.orange_block{
+    margin-top: 70px;
+    padding-right: 40px;
+    height: 50%;
+}
+.orange_block:hover{
+    background-color: #000000;
+    color: #EB503D;
+    transition: 0.3s all;
+    border: 2px solid;
+    border-radius: 17px; 
+    cursor: pointer;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+}
+li a{text-decoration: none;
+    color: white;}
+li a:hover{color: #EB503D;}
+header ul{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    left: 600px;    
+    align-items: center;
+}
+main{
+    width: 100%;
+    color: black;
+    background-color: white;
+    display: flex; 
+    flex-direction: row;  
+    
+}
+aside{
+    width: 50vw;
+    text-align: justify;
+    padding-left: 10px;
+}
+article img{width: 500px;
+margin-top: 5px;
+margin-left: 150px;}
+footer{
+margin-top: 80px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+

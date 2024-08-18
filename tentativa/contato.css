@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+*{font-family: "Arimo", sans-serif;}
+body{
+    background-color:rgb(28, 28, 26);
+    display: flex;
+}
+header h1{
+    color: white;
+    padding-left: 50px;
+    margin-top: 20px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+header{
+    display: flex;
+}
+header #esclamacao{
+    color: #eb503d;
+    position: relative;
+    left: -40px;
+    top: 20px;
+}
+img{
+    width: 177px;
+    height: 177px;
+    position: relative;
+    left: 800px;
+}
+main{
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    margin-top: 200px;
+}
+.escrito{
+    position: relative;
+    bottom: 200px;
+    right: 400px;
+    line-height: 10px;
+}
+
+.escrito h3{
+    color: white;
+}
+.escrito h4{
+    color: #c4c4c4;
+}
+.alinha_texto{
+    display: grid;
+    grid-template-columns: 1fr;
+position: relative;
+top: 250px;
+
+}
+.alinha_chat{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    right: 150px;
+    top: 80px;
+    color: white;
+}
+main h2{
+    position: relative;
+    text-align: center;
+    color: lightgray;
+    bottom: 200px;
+    left: 100px;
+}
+.tamanho_chat{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 200px;
+    top: -15px;
+}
+#chat_laranja svg{
+    fill: #eb503d;
+}
+#view_more{
+    position: relative;
+    right: 600px;
+    top: 50px;
+}
